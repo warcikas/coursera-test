@@ -2,15 +2,6 @@
 	box-sizing: border-box;
 }
 
-p{
-	width: 50%;
-	/*border: 1px solid black;*/
-	float: left;
-	padding: 10px;
-}
-#announcements{
-	
-}
 
 #header-nav {
 	background-color: #ADD8E6;
@@ -23,14 +14,4 @@ p{
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
-}
-
-#p1 {
-	/*background-color: #A52A2A;*/
-}
-#p2{
-	/*background-color: #DEB887;*/
-}
-section{
-	clear: left;
 }
