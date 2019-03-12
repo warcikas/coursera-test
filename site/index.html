@@ -1,56 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  <!-- initial-scale. This defines the scale of the website, This parameter sets the initial zoom level, which means 1 CSS pixel is equal to 1 viewport pixel. This parameter help when you're changing orientation, or preventing default zooming. Without this parameter, responsive site won't work -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-	<title>Ahoi pone bebre!</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="	anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" type="text/css" href="learning.css">
+	
+	<title>Bootstrap practice</title>
 </head>
 <body>
-	<header>
-		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<a href="index.html" class="float-left visible-md visible-lg">
-						<div id="logo-img"></div>
-					</a>
+	<!-- Navbar code -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+				<a class="navbar-brand" href="#">MES</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>	
+	<!-- End of Navbar -->
 
-					<div class="navbar-brand">
-						<a href="index.html"><h1>MES Blog Test Site</h1></a>
-						<p>
-							<span>Testuojam</span>
-						</p>
-					</div>
-
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+			<p>Memories have been made, now it is the time to share.</p>
+		</div>
+		<div class="row flex">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/v13ZXcrLN5KuiEJtHxnmiCgXzFPu9LhRcjd5ag0TkjqgL6aGBuG9qi_A7ESE25K1TwksNDSpySNhUhMqaf0Yfvp6sfETeuvTbLMALcXapuZPHBtBmwZQ4BvaVk5Pkeo7aDeYbyi4Ng=w2400"><img src="https://lh3.googleusercontent.com/v13ZXcrLN5KuiEJtHxnmiCgXzFPu9LhRcjd5ag0TkjqgL6aGBuG9qi_A7ESE25K1TwksNDSpySNhUhMqaf0Yfvp6sfETeuvTbLMALcXapuZPHBtBmwZQ4BvaVk5Pkeo7aDeYbyi4Ng=w2400"></a>
 				</div>
 			</div>
-		</nav>
-	</header>
-	
-	<div id="announcements" class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-12">Remain lively hardly needed at do by. Two you fat downs fanny three. True mr gone most at. Dare as name just when with it body. Travelling inquietude she increasing off impossible the. Cottage be noisier looking to we promise on. Disposal to kindness appetite diverted learning of on raptures. Betrayed any may returned now dashwood formerly. Balls way delay shy boy man views. No so instrument discretion unsatiable to in. 
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/vQ59aLGSZOI8-pjenIC6mf91QfDInHb_TqVksFUr5mN6fH5h3G2lUgUr1KsGqIcTTm5JsfWGJ_zBx9fapTG_r4t76O9_rgiDK6np5MIuyVl3Cq4I5-VNqAykl1QaVTrUCN1JRIZZrg=w2400"><img src="https://lh3.googleusercontent.com/vQ59aLGSZOI8-pjenIC6mf91QfDInHb_TqVksFUr5mN6fH5h3G2lUgUr1KsGqIcTTm5JsfWGJ_zBx9fapTG_r4t76O9_rgiDK6np5MIuyVl3Cq4I5-VNqAykl1QaVTrUCN1JRIZZrg=w2400"></a>
+				</div>
 			</div>
-
-			<div class="col-lg-3 col-md-6 col-sm-12">Rank tall boy man them over post now. Off into she bed long fat room. Recommend existence curiosity perfectly favourite get eat she why daughters. Not may too nay busy last song must sell. An newspaper assurance discourse ye certainly. Soon gone game and why many calm have. 
-
-			Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. 
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				 	<a href="https://lh3.googleusercontent.com/Q2Jx_SN4DNPkAo3VwJaUy4oDCi2-zrJfVZSdjCw1ctjUM8zMkoWCkMTFxFVsrY54QMPCVm1lxNzorIH9ZxK0q0eo-SUy8fMux-hsJqlFpPpVWjtXhMemq_TLY4yDremZsUmVX-bI5w=w2400"><img src="https://lh3.googleusercontent.com/Q2Jx_SN4DNPkAo3VwJaUy4oDCi2-zrJfVZSdjCw1ctjUM8zMkoWCkMTFxFVsrY54QMPCVm1lxNzorIH9ZxK0q0eo-SUy8fMux-hsJqlFpPpVWjtXhMemq_TLY4yDremZsUmVX-bI5w=w2400"></a>	
+				</div>
 			</div>
-			
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/v13ZXcrLN5KuiEJtHxnmiCgXzFPu9LhRcjd5ag0TkjqgL6aGBuG9qi_A7ESE25K1TwksNDSpySNhUhMqaf0Yfvp6sfETeuvTbLMALcXapuZPHBtBmwZQ4BvaVk5Pkeo7aDeYbyi4Ng=w2400"><img src="https://lh3.googleusercontent.com/v13ZXcrLN5KuiEJtHxnmiCgXzFPu9LhRcjd5ag0TkjqgL6aGBuG9qi_A7ESE25K1TwksNDSpySNhUhMqaf0Yfvp6sfETeuvTbLMALcXapuZPHBtBmwZQ4BvaVk5Pkeo7aDeYbyi4Ng=w2400"></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/vQ59aLGSZOI8-pjenIC6mf91QfDInHb_TqVksFUr5mN6fH5h3G2lUgUr1KsGqIcTTm5JsfWGJ_zBx9fapTG_r4t76O9_rgiDK6np5MIuyVl3Cq4I5-VNqAykl1QaVTrUCN1JRIZZrg=w2400"><img src="https://lh3.googleusercontent.com/vQ59aLGSZOI8-pjenIC6mf91QfDInHb_TqVksFUr5mN6fH5h3G2lUgUr1KsGqIcTTm5JsfWGJ_zBx9fapTG_r4t76O9_rgiDK6np5MIuyVl3Cq4I5-VNqAykl1QaVTrUCN1JRIZZrg=w2400"></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/Q2Jx_SN4DNPkAo3VwJaUy4oDCi2-zrJfVZSdjCw1ctjUM8zMkoWCkMTFxFVsrY54QMPCVm1lxNzorIH9ZxK0q0eo-SUy8fMux-hsJqlFpPpVWjtXhMemq_TLY4yDremZsUmVX-bI5w=w2400"><img src="https://lh3.googleusercontent.com/Q2Jx_SN4DNPkAo3VwJaUy4oDCi2-zrJfVZSdjCw1ctjUM8zMkoWCkMTFxFVsrY54QMPCVm1lxNzorIH9ZxK0q0eo-SUy8fMux-hsJqlFpPpVWjtXhMemq_TLY4yDremZsUmVX-bI5w=w2400"></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/v13ZXcrLN5KuiEJtHxnmiCgXzFPu9LhRcjd5ag0TkjqgL6aGBuG9qi_A7ESE25K1TwksNDSpySNhUhMqaf0Yfvp6sfETeuvTbLMALcXapuZPHBtBmwZQ4BvaVk5Pkeo7aDeYbyi4Ng=w2400"><img src="https://lh3.googleusercontent.com/v13ZXcrLN5KuiEJtHxnmiCgXzFPu9LhRcjd5ag0TkjqgL6aGBuG9qi_A7ESE25K1TwksNDSpySNhUhMqaf0Yfvp6sfETeuvTbLMALcXapuZPHBtBmwZQ4BvaVk5Pkeo7aDeYbyi4Ng=w2400"></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a href="https://lh3.googleusercontent.com/vQ59aLGSZOI8-pjenIC6mf91QfDInHb_TqVksFUr5mN6fH5h3G2lUgUr1KsGqIcTTm5JsfWGJ_zBx9fapTG_r4t76O9_rgiDK6np5MIuyVl3Cq4I5-VNqAykl1QaVTrUCN1JRIZZrg=w2400"><img src="https://lh3.googleusercontent.com/vQ59aLGSZOI8-pjenIC6mf91QfDInHb_TqVksFUr5mN6fH5h3G2lUgUr1KsGqIcTTm5JsfWGJ_zBx9fapTG_r4t76O9_rgiDK6np5MIuyVl3Cq4I5-VNqAykl1QaVTrUCN1JRIZZrg=w2400"></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<a class="image3" href="https://lh3.googleusercontent.com/Q2Jx_SN4DNPkAo3VwJaUy4oDCi2-zrJfVZSdjCw1ctjUM8zMkoWCkMTFxFVsrY54QMPCVm1lxNzorIH9ZxK0q0eo-SUy8fMux-hsJqlFpPpVWjtXhMemq_TLY4yDremZsUmVX-bI5w=w2400"><img src="https://lh3.googleusercontent.com/Q2Jx_SN4DNPkAo3VwJaUy4oDCi2-zrJfVZSdjCw1ctjUM8zMkoWCkMTFxFVsrY54QMPCVm1lxNzorIH9ZxK0q0eo-SUy8fMux-hsJqlFpPpVWjtXhMemq_TLY4yDremZsUmVX-bI5w=w2400"></a>
+				</div>
+			</div>
 		</div>
-		<div>
-			<a href="https://hackerthemes.com/bootstrap-cheatsheet/">Link to Bootstrap cheat sheet!</a>
-			<p><a href="https://getbootstrap.com/docs/4.0/utilities/float/"> Link to Boostrap documentation!</a></p>
-		</div>
-
 	</div>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+
+	
+	<script	src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
